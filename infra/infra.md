@@ -7,13 +7,17 @@
 
 ## Software
 
- - nginx con las ISOs
- - tftpd/dhcpd para PXE de debian y ubuntu
- - apt-cacher-ng
+ - nginx
+    - servidor ISOs, debian preseed y scripts de setup
+    - reverse proxy cache de repos
+ - dhcpd con red, dns, netboot, preseed
+ - tftpd con instaladores
+ - dnsd con install-party.local
+ - apt-cacher-ng?
 
-## Configs
+## Setup
 
- - Debian preseed
+ - Debian preseed y script
  - Ubuntu script
  - Mint script
  - Fedora script

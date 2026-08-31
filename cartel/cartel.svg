@@ -28,12 +28,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.62153365"
-     inkscape:cx="555.07855"
-     inkscape:cy="962.94062"
-     inkscape:window-width="1364"
-     inkscape:window-height="754"
-     inkscape:window-x="0"
-     inkscape:window-y="17"
+     inkscape:cx="554.27409"
+     inkscape:cy="704.70843"
+     inkscape:window-width="1920"
+     inkscape:window-height="1029"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs1"><rect
@@ -833,15 +833,15 @@
          sodipodi:role="line"
          x="71.270111"
          y="384.22183"
-         id="tspan11">¡Lleva tu portátil y te ayudamos a instalar Linux</tspan><tspan
+         id="tspan11">¡Lleva tu portátil y un pincho y te ayudamos a</tspan><tspan
          sodipodi:role="line"
          x="71.270111"
          y="424.22183"
-         id="tspan7">guiandote durante el proceso; descubrirás un mundo</tspan><tspan
+         id="tspan7">instalar Linux guiandote durante el proceso;</tspan><tspan
          sodipodi:role="line"
          x="71.270111"
          y="464.22183"
-         id="tspan10">de posibilidades que no conocías!</tspan></text><g
+         id="tspan10">descubrirás un mundo de posibilidades que no conocías!</tspan></text><g
        id="tux"
        transform="matrix(1.3644842,0,0,1.3644842,51.758167,513.49513)"><g
          id="body"><path
@@ -7647,23 +7647,23 @@
        transform="translate(30.587158,-32.669308)"><tspan
          x="763.04492"
          y="929.29492"
-         id="tspan1">Distribuciones:
+         id="tspan17">Distribuciones:
 </tspan><tspan
          x="763.04492"
          y="969.29492"
-         id="tspan2"> - Ubuntu
+         id="tspan18"> - Ubuntu
 </tspan><tspan
          x="763.04492"
          y="1009.2949"
-         id="tspan6"> - Debian
+         id="tspan19"> - Debian
 </tspan><tspan
          x="763.04492"
          y="1049.2949"
-         id="tspan8"> - Mint
+         id="tspan20"> - Mint
 </tspan><tspan
          x="763.04492"
          y="1089.2949"
-         id="tspan9"> - Fedora
+         id="tspan21"> - Fedora
 </tspan></text><rect
        style="fill:none;fill-opacity:1;stroke:#f8f8f8;stroke-width:5.66929;stroke-dasharray:none;stroke-opacity:1"
        id="rect1183"
@@ -7685,20 +7685,20 @@
        transform="translate(-323.52006,253.53707)"><tspan
          x="400.375"
          y="1000.8691"
-         id="tspan12">Fecha: TBD
+         id="tspan22">Fecha: TBD
 </tspan><tspan
          x="400.375"
          y="1040.8691"
-         id="tspan13">Ubicación: TBD</tspan></text><text
+         id="tspan23">Ubicación: TBD</tspan></text><text
        xml:space="preserve"
        id="text1184"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Monospace;-inkscape-font-specification:Monospace;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1185);display:inline;fill:#f8f8f8;fill-opacity:1;stroke:none;stroke-width:0.472441;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.3148677,0,0,1.3148677,-140.8107,-271.07466)"><tspan
          x="400.375"
          y="985.03909"
-         id="tspan15"><tspan
+         id="tspan25"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Monospace Bold'"
-           id="tspan14">INSCRIBETE!</tspan></tspan></text><image
+           id="tspan24">INSCRIBETE!</tspan></tspan></text><image
        width="414.80695"
        height="181.70454"
        preserveAspectRatio="none"
@@ -7712,4 +7712,4 @@
        transform="translate(1.3998504,19.429846)"><tspan
          x="173.58203"
          y="1478.9434"
-         id="tspan16">LinuxUMU</tspan></text></g></svg>
+         id="tspan26">LinuxUMU</tspan></text></g></svg>
