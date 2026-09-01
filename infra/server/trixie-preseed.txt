@@ -95,7 +95,7 @@ d-i apt-setup/disable-cdrom-entries boolean true
 #tasksel tasksel/first multiselect standard, kde-desktop
 
 # Individual additional packages to install
-d-i pkgsel/include string build-essential
+d-i pkgsel/include string firefox libreoffice build-essential vim neovim geany codium git openjdk-21-jre okteta sagemath sagetex texlive-full r-base octave maude qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager wireshark bison flex
 # Whether to upgrade packages after debootstrap.
 # Allowed values: none, safe-upgrade, full-upgrade
 d-i pkgsel/upgrade select full-upgrade
