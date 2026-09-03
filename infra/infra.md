@@ -15,6 +15,12 @@
  - dnsd con install-party.local
  - apt-cacher-ng?
 
+| path | destino |
+|------|---------|
+| /fedora | https://mirrors.fedoraproject.org/ |
+| /debian | https://deb.debian.org/debian/ |
+| /ubuntu | https://packages.ubuntu.com/ |
+
 ## Setup
 
  - Debian preseed y script
