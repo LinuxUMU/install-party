@@ -29,11 +29,10 @@
  - firefox
  - libreoffice
  - build-essential
- - vim neovim geany codium
+ - vim neovim geany
  - git
- - openjdk-21-jre
+ - openjdk-21-jdk
  - okteta
- - sagemath sagetex
  - texlive-full
  - r-base
  - octave
@@ -46,6 +45,8 @@
 #### Externo
 
  - Eduroam
+ - codium
+ - sagemath sagetex
  - Rstudio
  - MARS
 

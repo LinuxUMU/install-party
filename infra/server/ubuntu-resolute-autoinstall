@@ -1,0 +1,49 @@
+#cloud-config
+autoinstall:
+    version: 1
+    locale: es_ES
+    keyboard:
+        layout: es
+    apt:
+        preserve_sources_list: true
+        mirror-selection:
+            primary:
+                - uri: http://install-party.local/ubuntu
+                  arches: [default]
+    storage:
+        layout:
+            name: direct
+    ssh:
+        install-server: no
+    drivers:
+        install: true
+    snaps:
+        - name: codium
+    packages:
+        - firefox
+        - libreoffice
+        - build-essential
+        - vim
+        - neovim
+        - geany
+        - git
+        - openjdk-21-jdk
+        - okteta
+        - texlive-full
+        - r-base
+        - octave
+        - maude
+        - qemu-kvm
+        - libvirt-daemon-system
+        - libvirt-clients
+        - bridge-utils
+        - virt-manager
+        - wireshark
+        - bison
+        - flex
+    user-data:
+        disable_root: false
+    late-commands:
+        - curtin in-target -- apt-get update
+        - curtin in-target -- apt-get upgrade
+
