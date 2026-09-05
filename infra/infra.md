@@ -13,20 +13,23 @@
  - dhcpd con red, dns, netboot, preseed
  - tftpd con instaladores
  - dnsd con install-party.local
- - apt-cacher-ng?
 
-| path | destino |
-|------|---------|
-| /fedora | https://mirrors.fedoraproject.org/ |
-| /debian | https://deb.debian.org/debian/ |
-| /ubuntu | https://packages.ubuntu.com/ |
+| path        | destino |
+|-------------|---------|
+| /fedora     | https://mirrors.fedoraproject.org/ |
+| /debian     | https://deb.debian.org/debian/ |
+| /ubuntu     | https://packages.ubuntu.com/ |
+| /mint       | https://packages.linuxmint.com/ |
+| /isos       | /srv/install-party/isos |
+| /scripts    | /srv/install-party/scripts |
+| /auto       | /srv/install-party/auto |
 
 ## Setup
 
  - Debian preseed y script
- - Ubuntu script
+ - Ubuntu autoinstall y script
  - Mint script
- - Fedora script
+ - Fedora kickstart y script
 
 ### Paquetes
 
