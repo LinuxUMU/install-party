@@ -23,6 +23,7 @@
 | /isos       | /srv/install-party/isos |
 | /scripts    | /srv/install-party/scripts |
 | /auto       | /srv/install-party/auto |
+| /software   | /srv/install-party/software |
 
 ## Setup
 
@@ -58,6 +59,7 @@
  - sagemath sagetex
  - Rstudio
  - MARS
+ - eclipse
 
  - Oracle Database
 
