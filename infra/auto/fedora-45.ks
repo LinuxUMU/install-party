@@ -26,3 +26,8 @@ bison
 flex
 %end
 
+%post --erroronfail --log=/var/log/kickstart_post.log
+#!/bin/bash
+curl http://install-party.local/scripts/fedora-45.sh | bash
+%end
+

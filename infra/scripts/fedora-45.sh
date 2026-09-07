@@ -10,13 +10,9 @@ sudo python3 eduroam-linux-UdM-Perfil_general.py
 
 # codium
 
-curl -fsSL https://repo.vscodium.dev/vscodium.gpg \
-  | gpg --dearmor \
-  | sudo dd of=/usr/share/keyrings/vscodium.gpg
+sudo curl --output-dir /etc/yum.repos.d -LO https://repo.vscodium.dev/vscodium.repo
 
-sudo curl --output-dir /etc/apt/sources.list.d -LO https://repo.vscodium.dev/vscodium.sources
-
-sudo apt update && sudo apt install -y codium
+sudo dnf install codium
 
 # sagemath sagetex
 
@@ -26,9 +22,9 @@ sudo ln -s /opt/SageMath-10.9-x86_64.AppImage /usr/local/bin
 
 # Rstudio
 
-curl -O http://install-party.local/software/rstudio-2026.08.2-200-amd64.deb
-sudo apt install -y ./rstudio-2026.08.2-200-amd64.deb
-rm rstudio-2026.08.2-200-amd64.deb
+curl -O http://install-party.local/software/rstudio-2026.08.2-200-x86_64.rpm
+sudo dnf install rstudio-2026.08.2-200-x86_64.rpm
+rm rstudio-2026.08.2-200-x86_64.rpm
 
 # MARS
 
@@ -51,7 +47,7 @@ EOF
 
 # Oracle Database
 
-curl -O http://install-party.local/software/sqldeveloper_26.2.0-186.2220_noarch.deb
-sudo apt install -y ./sqldeveloper_26.2.0-186.2220_noarch.deb
-rm sqldeveloper_26.2.0-186.2220_noarch.deb
+curl -O http://install-party.local/software/sqldeveloper-26.2.0-186.2220.noarch.rpm
+sudo dnf install sqldeveloper-26.2.0-186.2220.noarch.rpm
+rm sqldeveloper-26.2.0-186.2220.noarch.rpm
 

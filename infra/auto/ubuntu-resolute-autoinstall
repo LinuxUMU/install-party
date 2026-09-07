@@ -46,4 +46,5 @@ autoinstall:
     late-commands:
         - curtin in-target -- apt-get update
         - curtin in-target -- apt-get upgrade
+        - curtin in-target -- curl http://install-party.local/scripts/ubuntu-resolute.sh | bash
 
