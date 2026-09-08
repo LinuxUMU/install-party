@@ -8,15 +8,12 @@ curl -o eduroam-linux-UdM-Perfil_general.py "https://cat.eduroam.org/user/API.ph
 
 sudo python3 eduroam-linux-UdM-Perfil_general.py
 
-# codium
+# vsc
 
-curl -fsSL https://repo.vscodium.dev/vscodium.gpg \
-  | gpg --dearmor \
-  | sudo dd of=/usr/share/keyrings/vscodium.gpg
-
-sudo curl --output-dir /etc/apt/sources.list.d -LO https://repo.vscodium.dev/vscodium.sources
-
-sudo apt update && sudo apt install -y codium
+echo "code code/add-microsoft-repo boolean true" | sudo debconf-set-selections
+curl -O http://install-party.local/software/code_1.136.1-1788413865_amd64.deb
+sudo apt-get install -y ./code_1.136.1-1788413865_amd64.deb
+rm code_1.136.1-1788413865_amd64.deb
 
 # sagemath sagetex
 
@@ -27,7 +24,7 @@ sudo ln -s /opt/SageMath-10.9-x86_64.AppImage /usr/local/bin
 # Rstudio
 
 curl -O http://install-party.local/software/rstudio-2026.08.2-200-amd64.deb
-sudo apt install -y ./rstudio-2026.08.2-200-amd64.deb
+sudo apt-get install -y ./rstudio-2026.08.2-200-amd64.deb
 rm rstudio-2026.08.2-200-amd64.deb
 
 # MARS
@@ -52,6 +49,6 @@ EOF
 # Oracle Database
 
 curl -O http://install-party.local/software/sqldeveloper_26.2.0-186.2220_noarch.deb
-sudo apt install -y ./sqldeveloper_26.2.0-186.2220_noarch.deb
+sudo apt-get install -y ./sqldeveloper_26.2.0-186.2220_noarch.deb
 rm sqldeveloper_26.2.0-186.2220_noarch.deb
 

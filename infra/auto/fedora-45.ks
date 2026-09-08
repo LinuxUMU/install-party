@@ -15,15 +15,23 @@ xconfig --startxonboot
 @c-development
 @java-development
 @virtualization
+gdb
 vim
 neovim
+geany
 git
 okteta
 texlive-scheme-full
 octave
 wireshark
+nmap
+socat
+arptools
+tcpdump
 bison
 flex
+python3-numpy
+python3-scipy
 %end
 
 %post --erroronfail --log=/var/log/kickstart_post.log

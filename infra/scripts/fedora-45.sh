@@ -10,9 +10,10 @@ sudo python3 eduroam-linux-UdM-Perfil_general.py
 
 # codium
 
-sudo curl --output-dir /etc/yum.repos.d -LO https://repo.vscodium.dev/vscodium.repo
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc &&
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
 
-sudo dnf install codium
+dnf check-update && sudo dnf install code
 
 # sagemath sagetex
 

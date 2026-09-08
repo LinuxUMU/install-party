@@ -39,6 +39,8 @@
  - firefox
  - libreoffice
  - build-essential
+ - cmake
+ - gdb
  - vim neovim geany
  - git
  - openjdk-21-jdk
@@ -48,18 +50,21 @@
  - octave
 
  - maude
- - qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager
+ - qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils virt-manager libvirt-daemon-driver-lxc
  - wireshark
+ - nmap socat arping tshark tcpdump
  - bison flex
+ - python3-numpy python3-scipy
 
 #### Externo
 
  - Eduroam
- - codium
+ - Visual Studio Code
  - sagemath sagetex
  - Rstudio
  - MARS
  - eclipse
-
- - Oracle Database
+ - Oracle VirtualBox
+ - docker
+ - Oracle SQL Developer
 
