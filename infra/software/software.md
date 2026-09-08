@@ -7,4 +7,8 @@
  - https://github.com/dpetersanderson/MARS/releases/tag/v.4.5.1 Mars4_5.jar
  - https://download.oracle.com/otn_software/java/sqldeveloper/sqldeveloper-26.2.0-186.2220.noarch.rpm
  - sqldeveloper_26.2.0-187.222_all.deb (alien generated)
+ - https://download.virtualbox.org/virtualbox/7.2.16/virtualbox-7.2_7.2.16-174877~Debian~trixie_amd64.deb
+ - https://download.virtualbox.org/virtualbox/7.2.16/VirtualBox-7.2-7.2.16_174877_fedora40-1.x86_64.rpm
+ - https://download.virtualbox.org/virtualbox/7.2.16/virtualbox-7.2_7.2.16-174877~Ubuntu~resolute_amd64.deb
+ - https://download.virtualbox.org/virtualbox/7.2.16/virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb
 

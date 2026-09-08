@@ -46,9 +46,15 @@ Exec=java -jar /opt/Mars4_5.jar
 Terminal=false
 EOF
 
-# Oracle Database
+# Oracle SQL Developer
 
 curl -O http://install-party.local/software/sqldeveloper-26.2.0-186.2220.noarch.rpm
 sudo dnf install sqldeveloper-26.2.0-186.2220.noarch.rpm
 rm sqldeveloper-26.2.0-186.2220.noarch.rpm
+
+# Oracle VirtualBox
+
+curl -O http://install-party.local/software/VirtualBox-7.2-7.2.16_174877_fedora40-1.x86_64.rpm
+sudo dnf install VirtualBox-7.2-7.2.16_174877_fedora40-1.x86_64.rpm
+rm VirtualBox-7.2-7.2.16_174877_fedora40-1.x86_64.rpm
 

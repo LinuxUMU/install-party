@@ -49,9 +49,13 @@ Exec=java -jar /opt/Mars4_5.jar
 Terminal=false
 EOF
 
-# Oracle Database
+# Oracle SQL Developer
 
 curl -O http://install-party.local/software/sqldeveloper_26.2.0-186.2220_noarch.deb
 sudo apt install -y ./sqldeveloper_26.2.0-186.2220_noarch.deb
 rm sqldeveloper_26.2.0-186.2220_noarch.deb
+
+curl -O "http://install-party.local/software/virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb"
+sudo apt-get install -y "./virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb"
+rm "virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb"
 
