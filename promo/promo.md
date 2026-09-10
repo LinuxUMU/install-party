@@ -3,10 +3,11 @@
 ## Reclutar voluntarios de 2, 3 4to año
 
 ```
-Hola,
-Estoy pensando en crear un club/asociación universitaria para promover el uso del software libre, la soberanía digital y la privacidad, y realizar actividades, charlas y quedadas
-Por ejemplo, se podría organizar una Linux install party para los pollos, para prepararles una instalación de Linux que necesitarán para clase
-Estaríais alguno interesado en ser parte de LinuxUMU? https://t.me/linuxumu
+🐧🐧🐧🐧
+¡Hola estudiantes!
+Estamos en proceso de crear un club/asociación universitaria con gente del grado para promover el uso del software libre, la soberanía digital y la privacidad, y realizar actividades, charlas y quedadas.
+Vamos a realizar una Linux Install Party para los pollos, una actividad donde les ayudaremos a preparar una instalación de Linux y empezar en el mundo del software libre, ya que la necesitarán para clase.
+¿Estás interesado en ser parte del club LinuxUMU? Únete: https://t.me/linuxumu
 ```
 
 ## Promover en nuevo ingreso
