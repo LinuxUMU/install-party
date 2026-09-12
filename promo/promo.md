@@ -12,12 +12,13 @@ Vamos a realizar una Linux Install Party para los pollos, una actividad donde le
 
 ## Promover en nuevo ingreso
 
-```
-
-```
-
  - Colgar carteles
  - Presentar la actividad en las clases de IP
  - Hablar con profes y decano para proyectar y dar la voz
+ - Spammear grupos
  - En la actividad hablar de LinuxUMU
+
+```
+
+```
 
