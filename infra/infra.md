@@ -2,8 +2,38 @@
 
 ## Hardware
 
- - minipc con Debian y wifi
+ - minipc con eth y wifi (Debian)
  - switch
+
+## Red
+
+```
+internet ----------+  +------
+                   |  |
+   +--------+   +--------+
+   | minipc |---| switch |---- clientes
+   +--------+   +--------+
+        v             |
+        v             +------
+     clientes
+
+```
+
+ - minipc
+   - eth
+     - vlan10: backbone
+     - vlan1: clientes
+   - wlan: clientes (ssid: linux install party)
+   - br0
+     - vlan20
+     - wlan
+   - net.ipv4.ip_forward=1
+   - iptables -t nat -A POSTROUTING ! -d 10.67.67.0/24 -o vlan10 -j MASQUERADE
+ - switch
+   - p1: trunk 1, 10
+   - p2: access 10 -> internet
+   - \*: access 1
+
 
 ## Software
 
