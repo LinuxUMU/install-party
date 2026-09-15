@@ -51,9 +51,21 @@ EOF
 
 # Oracle SQL Developer
 
-curl -O http://install-party.local/software/sqldeveloper_26.2.0-186.2220_noarch.deb
-sudo apt install -y ./sqldeveloper_26.2.0-186.2220_noarch.deb
-rm sqldeveloper_26.2.0-186.2220_noarch.deb
+curl -O https://install-party.local/software/sqldeveloper-26.2.0.186.2220-no-jre.tar.gz
+sudo tar xf sqldeveloper-26.2.0.186.2220-no-jre.tar.gz -C /opt
+rm sqldeveloper-26.2.0.186.2220-no-jre.tar.gz
+
+cat > ~/Desktop/mars.desktop << "EOF"
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Oracle SQL Developer
+Comment=Oracle SQL Developer
+Exec=/opt/sqldeveloper/sqldeveloper.sh
+Terminal=false
+EOF
+
+# Oracle VirtualBox
 
 curl -O "http://install-party.local/software/virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb"
 sudo apt-get install -y "./virtualbox-7.2_7.2.16-174877~Ubuntu~noble_amd64.deb"

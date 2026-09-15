@@ -22,7 +22,7 @@
 | /mint       | https://packages.linuxmint.com/ |
 | /isos       | /srv/install-party/isos |
 | /scripts    | /srv/install-party/scripts |
-| /auto       | /srv/install-party/auto |
+| /automation | /srv/install-party/automation |
 | /software   | /srv/install-party/software |
 
 ## Setup
