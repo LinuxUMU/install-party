@@ -20,14 +20,14 @@ internet ----------+  +------
 ```
 
  - minipc
-   - eth
-     - vlan10: backbone
-     - vlan1: clientes
+   - vlan10@eth: backbone dhcp
+   - vlan1@eth: clientes none
+   - eth: none
    - wlan: clientes (ssid: linux install party)
-   - br0
+   - br0: 10.67.67.1/24
      - vlan20
      - wlan
-   - net.ipv4.ip_forward=1
+   - net.ipv4.ip\_forward=1
    - iptables -t nat -A POSTROUTING ! -d 10.67.67.0/24 -o vlan10 -j MASQUERADE
  - switch
    - p1: trunk 1, 10
@@ -38,22 +38,26 @@ internet ----------+  +------
 ## Software
 
  - nginx
-    - servidor ISOs, debian preseed y scripts de setup
+    - servidor ISOs, scripts, preseeds, software y PXE cosas
     - reverse proxy cache de repos
- - dhcpd con red, dns, netboot, preseed
- - tftpd con instaladores
- - dnsd con install-party.local
 
 | path        | destino |
 |-------------|---------|
-| /fedora     | https://mirrors.fedoraproject.org/ |
 | /debian     | https://deb.debian.org/debian/ |
 | /ubuntu     | https://packages.ubuntu.com/ |
 | /mint       | https://packages.linuxmint.com/ |
+| /fedora     | https://mirrors.fedoraproject.org/ |
 | /isos       | /srv/install-party/isos |
 | /scripts    | /srv/install-party/scripts |
 | /automation | /srv/install-party/automation |
 | /software   | /srv/install-party/software |
+| /boot       | /srv/install-party/boot |
+
+ - dnsmasq
+    - dhcp 10.67.67.10-10.67.67.252, tftp server, file
+    - dns install-party.local 10.67.67.1
+    - tftp /srv/tftp
+
 
 ## Setup
 
