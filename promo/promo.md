@@ -68,3 +68,7 @@ jueves    1710: IP 3.3 lab 1.3, AMD 3.2 lab 1.2, FC 3.4 lab 2.2
 jueves    1850: IP 3.4 lab 2.2, AMD 3.1 lab 1.1
 ```
 
+Informados:
+
+ - 2.1
+
