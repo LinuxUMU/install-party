@@ -5,9 +5,16 @@
 ```
 🐧🐧🐧🐧
 ¡Hola estudiantes!
+
+¿Te gusta Linux y el Software Libre?
 Estamos en proceso de crear un club/asociación universitaria con gente del grado para promover el uso del software libre, la soberanía digital y la privacidad, y realizar actividades, charlas y quedadas.
+
 Vamos a realizar una Linux Install Party para los pollos, una actividad donde les ayudaremos a preparar una instalación de Linux y empezar en el mundo del software libre, ya que la necesitarán para clase.
-¿Estás interesado en ser parte del club LinuxUMU? Únete: https://t.me/linuxumu
+
+¿Estás interesado en ser parte del club LinuxUMU? Únete: 
+
+👉Telegram: https://t.me/linuxumu
+👉Web: https://linuxumu.github.io/web/ (dominio pending)
 ```
 
 ## Promover en nuevo ingreso
@@ -19,7 +26,17 @@ Vamos a realizar una Linux Install Party para los pollos, una actividad donde le
  - En la actividad hablar de LinuxUMU
 
 ```
+🆘¿NECESITAS AYUDA INSTALANDO LINUX PARA LA CARRERA? 🐧
 
+el próximo 📆 viernes 25 de septiembre, durante todo el día tendrá lugar la actividad LinuxUMU, organizada por estudiantes de la facultad con el apoyo de la delegación ✨
+
+el objetivo principal de este espacio es ayudaros a tener una instalación de Linux en vuestros portatiles lista para todo lo que se os pida en la facultad 💯, todo ello adaptado a vuestras necesidades
+
+trae un pincho USB y nos vemos en el aula 0.01 de la FIUM! 👋🏻
+
+👉🏻 inscripción: https://nextcloud.arf20.com/apps/forms/s/CEZJdJfmbdogm8rSxtydSAHK
+👉🏻 telegram: t.me/linuxumu
+👉🏻 más información: https://linuxumu.github.io/web/actividades/
 ```
 
 Clases de primero
