@@ -1,0 +1,38 @@
+#!ipxe
+
+dhcp
+
+menu Menu de arranque - Linux Install Party
+item debian Debian 13
+item ubuntu Ubuntu 26.04 LTS
+item mint Mint 22
+item fedora Fedora 44
+item shell iPXE shell
+choose target
+goto ${target}
+
+:debian
+kernel http://install-party.local/boot/debian/linux initrd=initrd.gz
+initrd http://install-party.local/boot/debian/initrd.gz
+boot
+
+:ubuntu
+kernel http://install-party.local/boot/ubuntu/vmlinuz initrd=initrd --- iso-url=http://install-party.local/boot/ubuntu/ubuntu-26.04.1-desktop-amd64.iso ip=dhcp
+initrd http://install-party.local/boot/ubuntu/initrd
+boot
+
+:mint
+kernel http://install-party.local/boot/mint/linux initrd=initrd.gz
+initrd http://install-party.local/boot/mint/initrd.gz
+#imgargs vmlinuz ip=dhcp
+boot
+
+:fedora
+kernel http://install-party.local/boot/fedora/linux initrd=initrd.gz
+initrd http://install-party.local/boot/fedora/initrd.gz
+#imgargs vmlinuz ip=dhcp inst.repo=http://install-party.local/boot/fedora/installer
+boot
+
+:shell
+shell
+
