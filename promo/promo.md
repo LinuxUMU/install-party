@@ -39,6 +39,14 @@ trae un pincho USB y nos vemos en el aula 0.01 de la FIUM! 👋🏻
 👉🏻 más información: https://linuxumu.github.io/web/actividades/
 ```
 
+```
+🐧PREGUNTAS FRECUENTES LINUX INSTALL PARTY🐧
+❓ - ¿Por qué necesito Linux?
+👉 - https://linuxumu.github.io/web/actividades/lip-faq
+Te esperamos el Viernes 25 todo el día en la 0.01!
+INSCRIBETE: https://nextcloud.arf20.com/apps/forms/s/CEZJdJfmbdogm8rSxtydSAHK
+```
+
 Clases de primero
 
  - AMD
