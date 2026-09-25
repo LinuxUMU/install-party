@@ -72,6 +72,15 @@ En caso de que se quiera conservar windows
  - Completar instalación
  - Comprobar que GRUB detecta Windows (si se decide conservar windows)
 
+### Si no aparece entrada en la UEFI
+
+Comando sustituir Windows Boot Manager por Grub en EFI (para que aparezca en bios) desde Windows CMD como admin (NO powershell): 
+
+`bcdedit /set "{bootmgr}" path \EFI\debian\shimx64.efi` (revisar ruta por instalación (not debian))
+
+ - ver estructura de ficheros desde linux y sustituir "debian" según convenga (está en /boot/efi/)
+ - sustituir "shimx64.efi" por "grubx64.efi" si secure boot está desactivado
+
 ## Instalar software del curso
 
  - `curl http://install-party.local/scripts/{debian-trixie.sh, fedora-45.sh, mint-22.sh, ubuntu-resolute.sh} | bash`
