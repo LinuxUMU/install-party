@@ -1,5 +1,7 @@
 # Documento Guía para Voluntarios
 
+Elite ball knowledge de instalar linux en dual boot
+
 ## Preparación
 
  - Traer TODOS los pinchos USB que tengais disponibles.
@@ -43,9 +45,15 @@ En caso de que se quiera conservar windows
 
 #### Alternativa si todo fallase 'atpc'
 
-1. Arrancar USB con GParted Live
+1. Arrancar USB con GParted Live o en Ubuntu o MX Linux (live env)
 2. Resize/Move partición de Windows borde derecho
 3. Aplicar
+
+##### Si gparted no puede resizear partición
+
+NTFS is inconsistent.
+
+ - Correr `chkdsk /f` en Windows y reiniciar **DOS** veces
 
 ## Crear medios de instalación
 
@@ -58,6 +66,10 @@ En caso de que se quiera conservar windows
 ### Si no tiene ethernet
 
  - Enchufar pincho, arrancar y seguir dialogos
+
+#### Si USB ventoy no arranca
+
+ - Usar pincho con ISO dd'ada
 
 ### Si tiene ethernet
 
