@@ -22,9 +22,8 @@ initrd http://install-party.local/boot/ubuntu/initrd
 boot
 
 :mint
-kernel http://install-party.local/boot/mint/linux initrd=initrd.gz
-initrd http://install-party.local/boot/mint/initrd.gz
-#imgargs vmlinuz ip=dhcp
+kernel http://install-party.local/boot/mint/vmlinuz initrd=initrd.lz --- iso-url=http://install-party.local/boot/ubuntu/linuxmint-22.3-cinnamon-64bit.iso ip=dhcp
+initrd http://install-party.local/boot/mint/initrd.lz
 boot
 
 :fedora
